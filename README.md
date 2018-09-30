@@ -4,5 +4,6 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 
 ## How to run this project
-1.Clone the repository using git clone (https://github.com/Eche24/feed-reader-testing.git) .
+1.Clone the repository using git clone https://github.com/Eche24/feed-reader-testing.git .
+
 2.Open index.html in your browser.
