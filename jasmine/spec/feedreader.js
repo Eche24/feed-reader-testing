@@ -21,8 +21,7 @@ $(function () {
 		});
 
 
-        // test that loops through each feed in the allFeeds object and ensures it has a URL defined
-        // and that the URL is not empty.
+        // Loops through each feed and determines if the URL is defined and not empty.
 
 
 		it('each feed url is defined and not empty', function () {
@@ -74,7 +73,7 @@ $(function () {
     // new test suite named "Initial Entries"
 	describe('Initial Entries', function () {
 
-        // test that ensures when the loadFeed function is called and completes its work, there is at least a single .entry element within the .feed container. loadFeed() is asynchronous so this test requires the use of Jasmine's beforeEach and asynchronous done() function.
+        //Tests that there is at least one entry in feed.
 
 		beforeEach(function (done) {
 			loadFeed(0, done);
