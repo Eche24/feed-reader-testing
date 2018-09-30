@@ -12,7 +12,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 1. Tests to make sure that the allFeeds variable has been defined and that it is not empty.
 2. Loops through each feed and determines if the URL is defined and not empty.
 3. Loops through each feed and determines that each feed has a name and not empty.
-4. ensures the menu element is hidden by default.
+4. Ensures the menu element is hidden by default.
 5. Test that ensures the menu changes visibility when the menu icon is clicked.
 6. Tests that there is at least one entry in feed.
 7. Test that ensures when a new feed is loaded by the loadFeed function that the content actually changes
